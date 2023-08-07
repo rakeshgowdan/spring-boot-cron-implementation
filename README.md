@@ -3,13 +3,15 @@ Spring Boot Schedular
 
 #  Scheduling Cron Expression
 
-## Spring Framework makes it simple by offering Spring Scheduler. Moreover, Cron Expressions are the most widely used approach to achieve scheduling. Cron Expressions are very popular in Unix/Linux OS for scheduling.Spring framework also incorporates the same concept internally. Spring Framework offers us an API where we can utilize Cron expression to get the task scheduled.
+# Spring Framework makes it simple by offering Spring Scheduler. Moreover, Cron Expressions are the most widely used approach to achieve scheduling. Cron Expressions are very popular in Unix/Linux OS for scheduling.Spring framework also incorporates the same concept internally. Spring Framework offers us an API where we can utilize Cron expression to get the task scheduled.
 
+```
 https://www.freeformatter.com/cron-expression-generator-quartz.html
-
+```
 
 What is a Cron Expression?
 Cron is a typical Unix utility that is used to schedule a task for automatic execution of it at particular intervals. For example, you might have a task that generates a specific pdf report from your application and you want to generate this report weekly on Monday automatically at 9:00 AM. 
+
 A cron expression is a string consisting of six or seven subexpressions (fields) that describe individual details of the schedule. These fields, separated by white space, can contain any of the allowed values with various combinations of the allowed characters for that field. Below picture shows the fields in the expected order and allowed values with characters.
 
 Note: As per the Spring Framework’s documentation, the allowed values for the field ‘day of week’ are 0-7. Here ‘0’ or ‘7’ both represent ‘Sunday’. Hence, below listings shows the clear mapping of days with numbers.
